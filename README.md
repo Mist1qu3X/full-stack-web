@@ -123,7 +123,10 @@
 ## Страница редактирования товара
 ![Страница редактирования товара](/client/screen/16.png)
 
-## Коносль запущенного сервера\n![Server routes](/client/screen/routes.png)\n\n## 🚀 Запуск проекта\n\n### 1. Установка зависимостей\n```bash\n# Сервер\ncd server\nnpm install\n\n# В новом терминале\ncd client\nnpm install\n```\n\n### 2. Запуск серверов\n```bash\n# Терминал 1 - сервер (порт 5000)\ncd server\nnpm start\n\n# Терминал 2 - клиент (порт 3000)\ncd client\nnpm start\n```\n\n### 3. Тестовые аккаунты\n- **Admin**: admin@example.com / admin123\n- **Seller**: seller@example.com / seller123\n\n### 4. Доступные страницы\n- `/login` - вход\n- `/register` - регистрация\n- `/products` - список товаров\n- `/products/new` - создать товар (seller/admin)\n- `/users` - управление пользователями (admin)\n\nСервер автоматически создаст тестовые аккаунты при первом запуске.
+## Коносль запущенного сервера
+![Server routes](/client/screen/routes.png)
+
+# Практическое занятие №11-12
 
 ## Консоль регестрации и авторизации
 ![Консоль регестрации и авторизации](/client/screen/17.png)
